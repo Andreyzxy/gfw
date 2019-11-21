@@ -1,6 +1,7 @@
 # GFW
 GFW blacklist
 
+mv /etc/sysconfig/iptables /etc/sysconfig/iptables.bak
 
 # IPtables  
 ```  
