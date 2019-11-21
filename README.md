@@ -3,8 +3,9 @@ GFW blacklist
 
 mv /etc/sysconfig/iptables /etc/sysconfig/iptables.bak
 
-# IPtables  
-```  
+```
+# IPtables
+
 iptables -I INPUT -s 27.211.176.45 -j DROP
 iptables -I INPUT -s 27.211.57.207 -j DROP
 iptables -I INPUT -s 27.224.136.227 -j DROP
@@ -120,11 +121,10 @@ iptables -I INPUT -s 222.94.163.45 -j DROP
 iptables -I INPUT -s 222.94.212.154 -j DROP
 iptables -I INPUT -s 222.94.212.231 -j DROP
 iptables -I INPUT -s 223.166.75.85 -j DROP
-```  
+
 
 # Route list
 
-```  
 route add -host 1.27.49.1 gw 127.0.0.1
 route add -host 1.27.49.3 gw 127.0.0.1
 route add -host 1.27.49.20 gw 127.0.0.1
